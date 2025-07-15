@@ -16,7 +16,7 @@ const Scoreboard = () => {
     useEffect(() => {
         const fetchScores = async () => {
             try {
-                const res = await axios.get(`${API_URL}/scores`, {
+                const res = await axios.get(`${API_URL}/api/scores`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
