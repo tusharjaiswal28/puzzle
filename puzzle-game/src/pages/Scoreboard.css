@@ -1,0 +1,48 @@
+.scoreboard-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.scoreboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logout-btn {
+    padding: 6px 12px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #c9302c;
+}
+
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.score-table th {
+    background-color: #f2f2f2;
+}
