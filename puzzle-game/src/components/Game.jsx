@@ -55,7 +55,7 @@ const Game = () => {
 
                 try {
                     await axios.post(
-                        `${API_URL}/scores`,
+                        `${API_URL}/api/scores`,
                         { time: elapsedTime },
                         {
                             headers: {
