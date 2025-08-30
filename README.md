@@ -10,7 +10,7 @@ Fullstack (React + Node.js + MongoDB)
 
 ## Deployed App
 
-Frontend: [https://magnificent-marigold-2b20d2.netlify.app/]
+Frontend: [https://puzzle-game28.netlify.app/]
 Backend: [https://puzzle-pv58.onrender.com]
 
 
